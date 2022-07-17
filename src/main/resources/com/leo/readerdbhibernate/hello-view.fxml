@@ -14,6 +14,8 @@
       
           <Label fx:id="welcomeText" prefHeight="18.0" prefWidth="345.0" />
           <Button onAction="#onHelloButtonClick" text="get request" />
+         <Button onAction="#writeRecordtoDB" mnemonicParsing="false" text="Add record to DB" />
+         <Label text="text" />
       </children>
    </VBox>
 </VBox>
